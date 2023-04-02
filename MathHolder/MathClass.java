@@ -2,7 +2,7 @@ package MathHolder;
 
 import java.util.Scanner;
 
-public class MathClass implements MathInterface{
+public class MathClass {
 
 	public static void main(String[] args) {
 		 
@@ -30,7 +30,7 @@ public class MathClass implements MathInterface{
 			        break;
 			    } else {
 			        System.out.println("Please enter a valid number.");
-			        userInput2.next(); // consume invalid input
+			        userInput2.next();  
 			    }
 			}
 			
@@ -128,6 +128,7 @@ public class MathClass implements MathInterface{
 			}
 			z = (x / y);
 			System.out.println("Ok, here is the division problem: " + x + " divided by " + y + " equals " + z + ". See you next time!");
+			 
 }
 
 
